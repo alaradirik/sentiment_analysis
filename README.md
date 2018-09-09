@@ -27,6 +27,6 @@ cd /PATH_TO_FOLDER/sentiment-analysis/scripts
 python sentiment_analysis.py
 ```
 To launch and run the notebooks and override the data rate limit:
-``` python
+```
 jupyter-notebook --NotebookApp.iopub_data_rate_limit=10000000000
 ```
