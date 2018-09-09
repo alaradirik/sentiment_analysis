@@ -5,10 +5,12 @@ While VADER Sentiment Analysis is used for this project to perform a sentiment a
 
 # Setup
 It is recommended to create a virtual environment to seperate the development environments of different projects, however this is completely optional. If you have Anaconda installed on your computer, you can create a new environment by:
-'>>> conda create -n YOUR_ENV_NAME python=3.6' 
+'''python
+conda create -n YOUR_ENV_NAME python=3.6
+'''
 
 To run the files:
-	>>> cd /PATH_TO_FOLDER/sentiment-analysis
+cd /PATH_TO_FOLDER/sentiment-analysis
 
 optional: (if you are using a virtual environment)
 	>>> source activate YOUR_ENV_NAME
