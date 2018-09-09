@@ -1,14 +1,23 @@
-It is recommended to create a virtual environment to seperate the development environments of different projects. If you have Anaconda installed on your computer, you can create a new environment by:
-conda create -n YOUR_ENV_NAME python=3.6 
+# Introduction
+The dataset used for this project is a small chunk of comments parsed from Hacker News forums in JSON format. Dataset consists of 10000 comments made by 2719 users and doesn't contain sentiment labels.
+
+While VADER Sentiment Analysis is used for this project to perform a sentiment analysis, there are many other tools available for unsupervised sentiment analysis, such as AFINN, SentiWordNet, NVDIA Sentiment Discovery and Stanford CoreNLP to name a few.
+
+# Setup
+It is recommended to create a virtual environment to seperate the development environments of different projects, however this is completely optional. If you have Anaconda installed on your computer, you can create a new environment by:
+'>>> conda create -n YOUR_ENV_NAME python=3.6' 
 
 To run the files:
-cd /PATH_TO_FOLDER/sentiment-analysis
+'>>> cd /PATH_TO_FOLDER/sentiment-analysis'
 
 optional: (if you are using a virtual environment)
-source activate YOUR_ENV_NAME
+'>>> source activate YOUR_ENV_NAME'
 
-pip install -r requirements.txt
+To install the dependencies
+'>>> pip install -r requirements.txt'
 To run the python scripts:
-python main.py
-Or launch the notebook and override the data rate limit:
-jupyter-notebook --NotebookApp.iopub_data_rate_limit=10000000000
+'>>> cd /PATH_TO_FOLDER/sentiment-analysis/scripts'
+'>>> python sentiment_analysis.py
+
+To launch and run the notebooks and override the data rate limit:
+'>>> jupyter-notebook --NotebookApp.iopub_data_rate_limit=10000000000'
