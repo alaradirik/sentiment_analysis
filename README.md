@@ -8,16 +8,16 @@ It is recommended to create a virtual environment to seperate the development en
 '>>> conda create -n YOUR_ENV_NAME python=3.6' 
 
 To run the files:
-'>>> cd /PATH_TO_FOLDER/sentiment-analysis'
+	>>> cd /PATH_TO_FOLDER/sentiment-analysis
 
 optional: (if you are using a virtual environment)
-'>>> source activate YOUR_ENV_NAME'
+	>>> source activate YOUR_ENV_NAME
 
 To install the dependencies
-'>>> pip install -r requirements.txt'
+	>>> pip install -r requirements.txt
 To run the python scripts:
-'>>> cd /PATH_TO_FOLDER/sentiment-analysis/scripts'
-'>>> python sentiment_analysis.py
+	>>> cd /PATH_TO_FOLDER/sentiment-analysis/scripts
+	>>> python sentiment_analysis.py
 
 To launch and run the notebooks and override the data rate limit:
-'>>> jupyter-notebook --NotebookApp.iopub_data_rate_limit=10000000000'
+	>>> jupyter-notebook --NotebookApp.iopub_data_rate_limit=10000000000
